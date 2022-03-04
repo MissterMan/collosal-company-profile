@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="scroll-smooth" lang="en">
 
 <head>
           <meta charset="UTF-8">
@@ -18,9 +18,10 @@
 
           <!-- CSS Link -->
           <link rel="stylesheet" href="/public/css/style.css">
+          <link rel="stylesheet" href="/public/css/scroll.css">
 </head>
 
-<body>
+<body class="bg-main-dark">
           <!-- Background -->
           <div class="relative min-h-fit z-50 w-full bg-main-dark/90 backdrop-blur-3xl">
                     <!-- Background Elipse -->
@@ -37,11 +38,11 @@
                                         <!-- Navbar Menu -->
                                         <div
                                                   class="w-6/12 text-center font-noto-sans-display text-base justify-between flex">
-                                                  <a href="#Services"
+                                                  <a href="#services"
                                                             class="text-white/80 hover:text-white">Services</a>
-                                                  <a href="#Work" class="text-white/80 hover:text-white">How We Work</a>
-                                                  <a href="#Project" class="text-white/80 hover:text-white">Projects</a>
-                                                  <a href="#About" class="text-white/80 hover:text-white">About</a>
+                                                  <a href="#work" class="text-white/80 hover:text-white">How We Work</a>
+                                                  <a href="#project" class="text-white/80 hover:text-white">Projects</a>
+                                                  <a href="#about" class="text-white/80 hover:text-white">About</a>
                                         </div>
                                         <div class="w-3/12 text-right">
                                                   <a class="w-fit px-[30px] py-[10px] font-medium bg-white/10 hover:bg-white/30 transition duration-300 rounded-sm text-white font-noto-sans-display"
@@ -74,14 +75,15 @@
                                         <a class="bg-primary py-[15px] px-[55px] font-noto-sans-display font-semibold text-white rounded-sm hover:bg-primary/70 transition duration-300"
                                                   href="#">Send Quote</a>
                                         <a class="bg-white/10 backdrop-blur-md py-[15px] px-[55px] font-noto-sans-display font-semibold text-white rounded-sm hover:bg-white/30 transition duration-300"
-                                                  href="#">Send Quote</a>
+                                                  href="#">Learn More</a>
                               </div>
                     </div>
 
                     <!-- Feature Section -->
-                    <div class="relative w-fit mx-auto py-32">
+                    <div id="services" class="relative w-fit mx-auto py-32">
                               <div class="lg:flex justify-center space-y-5 lg:space-y-0 lg:space-x-5">
-                                        <div class="bg-white/10 lg:w-3/12 backdrop-blur-md rounded-md">
+                                        <div
+                                                  class="bg-white/10 lg:w-3/12 backdrop-blur-md rounded-md hover:-translate-y-3  transition duration-200">
                                                   <div class="p-10">
                                                             <img src="asset/icons/figma.svg" alt="icon-figma">
                                                             <p
@@ -94,7 +96,8 @@
                                                                       designed first, our favorite tool is Figma.</p>
                                                   </div>
                                         </div>
-                                        <div class="bg-white/10 lg:w-3/12 backdrop-blur-md rounded-md">
+                                        <div
+                                                  class="bg-white/10 lg:w-3/12 backdrop-blur-md rounded-md hover:-translate-y-3  transition duration-200">
                                                   <div class="p-10">
                                                             <img src="asset/icons/develop.svg" alt="icon-figma">
                                                             <p
@@ -108,7 +111,8 @@
                                                                       technology you want.</p>
                                                   </div>
                                         </div>
-                                        <div class="bg-white/10 lg:w-3/12 backdrop-blur-md rounded-md">
+                                        <div
+                                                  class="bg-white/10 lg:w-3/12 backdrop-blur-md rounded-md hover:-translate-y-3  transition duration-200">
                                                   <div class="p-10">
                                                             <img src="asset/icons/ship.svg" alt="icon-figma">
                                                             <p
@@ -136,13 +140,69 @@
                               </div>
                     </div>
 
+                    <!-- How We Work Section -->
+                    <div id="work" class="flex mx-44 items-center py-32">
+                              <div class="w-1/2">
+                                        <img src="asset/illustration/How We Work Illustration.svg"
+                                                  alt="How We Work Illustration ">
+                              </div>
+                              <div class="w-1/2">
+                                        <p class="text-custom-green font-semibold text-base">HOW WE WORK?</p>
+                                        <p
+                                                  class="font-noto-sans-display text-3xl leading-relaxed text-white text-left font-bold mt-1 mb-7">
+                                                  Everything is well planned, well designed and developed wholeheartedly
+                                        </p>
+                                        <p class="text-white/60 font-noto-sans-display leading-loose text-base">
+                                                  Careful
+                                                  planning makes us confident, developed with best <br> practices so
+                                                  that the
+                                                  project can be maintained. We always test
+                                                  projects before they are shipped.</p>
+                              </div>
+                    </div>
+
+                    <!-- Our Team Section -->
+                    <div id="about" class="relative flex mx-44 items-center py-32 space-x-10">
+                              <div class="w-1/2">
+                                        <p class="text-custom-green font-noto-sans-display text-base font-semibold">OUR
+                                                  TEAM</p>
+                                        <p
+                                                  class="text-white font-noto-sans-display font-bold text-3xl leading-relaxed mt-1 mb-7">
+                                                  We're a team of designers, engineers and analysts</p>
+                                        <p class="text-white/60 font-noto-sans-display text-base leading-loose">Our team
+                                                  consists of many creative people. We are committed to maintaining
+                                                  quality work as well as speed. These creative
+                                                  people work together to create maximum work results.</p>
+                                        <a href="#"
+                                                  class="block w-fit mt-12 text-white font-noto-sans-display font-semibold bg-white/10 backdrop-blur-md rounded-sm hover:bg-white/30 transition duration-300 px-[40px] py-[10px]">See
+                                                  Our
+                                                  Team</a>
+                              </div>
+                              <div class="w-1/2">
+                                        <img src="asset/illustration/Team Illustration.svg" alt="Team Illustration">
+                              </div>
+                    </div>
+
                     <!-- Closing tag for dark background -->
+
           </div>
 
-          <!-- background Shape -->
+          <!-- background Shape Hero -->
           <div class="absolute -top-32 -z-10 right-10 h-[700px] w-[700px] bg-[#FC165B] rounded-full"></div>
           <div class="absolute -z-20 left-80 -top-16 h-[700px] w-[700px] bg-custom-green rounded-full"></div>
           <div class="absolute -z-10 top-14 -left-20 h-[700px] w-[700px] bg-[#FCA016] rounded-full"></div>
+
+          <!-- background shape work -->
+          <div class="absolute -z-20 top-[1500px] left-36 h-[400px] w-[400px] bg-[#FCA016] rounded-full">
+          </div>
+          <div class="absolute -z-10 left-96 top-[1300px] h-[350px] w-[350px] bg-custom-green rounded-full">
+          </div>
+
+          <!-- Background shape our team -->
+          <div class="absolute -z-20 top-[2100px] right-56 h-[450px] w-[450px] bg-[#FC165B] rounded-full">
+          </div>
+          <div class="absolute -z-10 right-20 top-[1910px] h-[350px] w-[350px] bg-primary rounded-full">
+          </div>
 
 </body>
 
