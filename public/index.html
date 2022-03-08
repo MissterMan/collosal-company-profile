@@ -1,318 +1,421 @@
 <!DOCTYPE html>
 <html class="scroll-smooth" lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Collosal</title>
 
     <!-- Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <!-- Font DM Sans -->
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Font Noto Sans Display -->
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@400;500;600;700;900&display=swap"
-        rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- CSS Link -->
-    <link rel="stylesheet" href="/public/css/style.css">
-    <link rel="stylesheet" href="/public/css/scroll.css">
-</head>
+    <link rel="stylesheet" href="/public/css/style.css" />
+    <link rel="stylesheet" href="/public/css/scroll.css" />
+  </head>
 
-<body class="bg-main-dark font-noto-sans-display">
+  <body class="bg-main-dark font-noto-sans-display">
     <!-- Background -->
-    <div class="relative min-h-fit z-50 w-full bg-main-dark/90 backdrop-blur-3xl">
-        <!-- Navigation Bar -->
-        <!-- <div class="h-fit z-10 w-full sticky top-0 bg-[#0f0f2b]/80 backdrop-blur-sm"> -->
-        <div class="h-fit z-10 w-full">
-            <div class="flex justify-evenly lg:mx-44 py-10 items-center">
-                <div class="w-3/12 text-left font-dmsans text-2xl font-bold text-white">
-                    <a class="flex items-center" href="#"><img class="pr-3" src="asset/icons/icon-collosal.svg"
-                            alt="icon-collosal">Collosal.</a>
-                </div>
-                <!-- Navbar Menu -->
-                <div class="w-6/12 text-center  text-base justify-between flex">
-                    <a href="#services" class="text-white/80 hover:text-white">Services</a>
-                    <a href="#work" class="text-white/80 hover:text-white">How We Work</a>
-                    <a href="#project" class="text-white/80 hover:text-white">Projects</a>
-                    <a href="#about" class="text-white/80 hover:text-white">About</a>
-                </div>
-                <div class="w-3/12 text-right">
-                    <a class="w-fit px-[30px] py-[10px] font-medium bg-white/10 hover:bg-white/30 transition duration-300 rounded-sm text-white "
-                        href="#">Contact</a>
-                </div>
+    <div
+      class="relative z-50 min-h-fit w-full bg-main-dark/90 backdrop-blur-3xl"
+    >
+      <!-- Navigation Bar -->
+      <!-- <div class="h-fit z-10 w-full sticky top-0 bg-[#0f0f2b]/80 backdrop-blur-sm"> -->
+      <div class="z-10 h-fit w-full">
+        <div class="flex items-center justify-evenly py-10 lg:mx-44">
+          <div
+            class="w-3/12 text-left font-dmsans text-2xl font-bold text-white"
+          >
+            <a class="flex items-center" href="#"
+              ><img
+                class="pr-3"
+                src="asset/icons/icon-collosal.svg"
+                alt="icon-collosal"
+              />Collosal.</a
+            >
+          </div>
+          <!-- Navbar Menu -->
+          <div class="flex w-6/12 justify-between text-center text-base">
+            <a href="#services" class="text-white/80 hover:text-white"
+              >Services</a
+            >
+            <a href="#work" class="text-white/80 hover:text-white"
+              >How We Work</a
+            >
+            <a href="#project" class="text-white/80 hover:text-white"
+              >Projects</a
+            >
+            <a href="#about" class="text-white/80 hover:text-white">About</a>
+          </div>
+          <div class="w-3/12 text-right">
+            <a
+              class="w-fit rounded-sm bg-white/10 px-[30px] py-[10px] font-medium text-white transition duration-300 hover:bg-white/30"
+              href="#"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Section -->
+      <div class="relative mx-auto mt-20 w-[580px]">
+        <!-- Hero Text -->
+        <div class="text-center">
+          <p class="text-base font-semibold tracking-wider text-custom-green">
+            CLIENT-DEVELOPMENT DRIVEN
+          </p>
+          <p class="mt-4 mb-6 text-4xl font-semibold leading-snug text-white">
+            We Design. We Develop. We Ship. In The Same Day.
+          </p>
+          <p class="mx-auto w-[500px] text-base leading-loose text-white/60">
+            We are committed to not making clients wait. We will deliver the
+            work as quickly as possible. Even on the same day. Even so, we do
+            not reduce the quality of our work.
+          </p>
+        </div>
+        <!-- Hero Button -->
+        <div class="mt-10 flex justify-center space-x-5">
+          <a
+            class="rounded-sm bg-primary py-[15px] px-[55px] font-semibold text-white transition duration-300 hover:bg-primary/70"
+            href="#"
+            >Send Quote</a
+          >
+          <a
+            class="rounded-sm bg-white/10 py-[15px] px-[55px] font-semibold text-white backdrop-blur-md transition duration-300 hover:bg-white/30"
+            href="#"
+            >Learn More</a
+          >
+        </div>
+      </div>
+
+      <!-- Feature Section -->
+      <div id="services" class="relative mx-auto w-fit py-32">
+        <div class="justify-center space-y-5 lg:flex lg:space-y-0 lg:space-x-5">
+          <div
+            class="rounded-md bg-white/10 backdrop-blur-md transition duration-200 hover:-translate-y-3 lg:w-3/12"
+          >
+            <div class="p-10">
+              <img src="asset/icons/figma.svg" alt="icon-figma" />
+              <p class="mt-5 mb-2 text-lg font-bold text-white">Design</p>
+              <p class="font-normal leading-loose text-white/60">
+                The project interface will be designed first, our favorite tool
+                is Figma.
+              </p>
             </div>
+          </div>
+          <div
+            class="rounded-md bg-white/10 backdrop-blur-md transition duration-200 hover:-translate-y-3 lg:w-3/12"
+          >
+            <div class="p-10">
+              <img src="asset/icons/develop.svg" alt="icon-figma" />
+              <p class="mt-5 mb-2 text-lg font-bold text-white">Develop</p>
+              <p class="leading-loose text-white/60">
+                The Transform design and write business logic here. Choose the
+                technology you want.
+              </p>
+            </div>
+          </div>
+          <div
+            class="rounded-md bg-white/10 backdrop-blur-md transition duration-200 hover:-translate-y-3 lg:w-3/12"
+          >
+            <div class="p-10">
+              <img src="asset/icons/ship.svg" alt="icon-figma" />
+              <p class="mt-5 mb-2 text-lg font-bold text-white">Ship</p>
+              <p class="leading-loose text-white/60">
+                The After the work is complete, we will send the project and all
+                its assets to you.
+              </p>
+            </div>
+          </div>
         </div>
 
-        <!-- Hero Section -->
-        <div class="relative mx-auto mt-20 w-[580px]">
-            <!-- Hero Text -->
-            <div class="text-center">
-                <p class="text-custom-green font-semibold text-base tracking-wider">
-                    CLIENT-DEVELOPMENT
-                    DRIVEN</p>
-                <p class="text-white font-semibold text-4xl mt-4 mb-6 leading-snug">We Design.
-                    We
-                    Develop. We Ship. In
-                    The Same Day.</p>
-                <p class="text-white/60 text-base mx-auto leading-loose w-[500px]">We are
-                    committed to not
-                    making
-                    clients
-                    wait. We will
-                    deliver the work as quickly as possible. Even on the same day. Even
-                    so, we do not reduce the quality of our work.</p>
-            </div>
-            <!-- Hero Button -->
-            <div class="flex justify-center mt-10 space-x-5">
-                <a class="bg-primary py-[15px] px-[55px]  font-semibold text-white rounded-sm hover:bg-primary/70 transition duration-300"
-                    href="#">Send Quote</a>
-                <a class="bg-white/10 backdrop-blur-md py-[15px] px-[55px]  font-semibold text-white rounded-sm hover:bg-white/30 transition duration-300"
-                    href="#">Learn More</a>
-            </div>
+        <!-- Company Logo (Feature Section)  -->
+        <div class="mx-40 mt-16 border-t border-b border-white/20">
+          <div class="my-9 flex justify-evenly">
+            <img src="asset/icons/Github Logo.svg" alt="Github Logo" />
+            <img src="asset/icons/Forbes Logo.svg" alt="Forbes Logo" />
+            <img src="asset/icons/Google Logo.svg" alt="Google Logo" />
+            <img src="asset/icons/Microsoft Logo.svg" alt="Microsoft Logo" />
+            <img src="asset/icons/Facebook Logo.svg" alt="Facebook Logo" />
+          </div>
+        </div>
+      </div>
+
+      <!-- How We Work Section -->
+      <div id="work" class="mx-44 flex items-center py-32">
+        <div class="w-1/2">
+          <img
+            src="asset/illustration/How We Work Illustration.svg"
+            alt="How We Work Illustration "
+          />
+        </div>
+        <div class="w-1/2">
+          <p class="text-base font-semibold text-custom-green">HOW WE WORK?</p>
+          <p
+            class="mt-1 mb-8 text-left text-3xl font-bold leading-relaxed text-white"
+          >
+            Everything is well planned, well designed and developed
+            wholeheartedly
+          </p>
+          <p class="text-base leading-loose text-white/60">
+            Careful planning makes us confident, developed with best <br />
+            practices so that the project can be maintained. We always test
+            projects before they are shipped.
+          </p>
+        </div>
+      </div>
+
+      <!-- Our Team Section -->
+      <div id="about" class="relative mx-44 flex items-center space-x-10 py-32">
+        <div class="w-1/2">
+          <p class="text-base font-semibold text-custom-green">OUR TEAM</p>
+          <p class="mt-1 mb-8 text-3xl font-bold leading-relaxed text-white">
+            We're a team of designers, engineers and analysts
+          </p>
+          <p class="text-base leading-loose text-white/60">
+            Our team consists of many creative people. We are committed to
+            maintaining quality work as well as speed. These creative people
+            work together to create maximum work results.
+          </p>
+          <a
+            href="#"
+            class="mt-12 block w-fit rounded-sm bg-white/10 px-[40px] py-[10px] font-semibold text-white backdrop-blur-md transition duration-300 hover:bg-white/30"
+            >See Our Team</a
+          >
+        </div>
+        <div class="w-1/2">
+          <img
+            src="asset/illustration/Team Illustration.svg"
+            alt="Team Illustration"
+          />
+        </div>
+      </div>
+
+      <!-- Line -->
+      <div class="relative mx-44 border-b border-white/5"></div>
+
+      <!-- Project Section -->
+      <div id="project" class="relative py-32">
+        <!-- Box background -->
+        <img
+          class="absolute -z-10"
+          src="asset/illustration/bg-rectangel.svg"
+          alt="box"
+        />
+
+        <!-- Shape Background -->
+        <div
+          class="absolute left-72 top-44 h-[45px] w-[45px] rounded-full bg-gradient-to-br from-[#FF81A6] to-[#FC165B] blur-sm"
+        ></div>
+        <div
+          class="absolute right-80 top-16 h-[50px] w-[50px] rounded-full bg-gradient-to-br from-[#66FFA3] to-[#009C3E] blur-sm"
+        ></div>
+        <div
+          class="absolute right-40 top-56 h-[30px] w-[30px] rounded-full bg-primary blur-sm"
+        ></div>
+
+        <!-- Text -->
+        <div class="mx-auto w-96">
+          <p class="text-center text-base font-semibold text-custom-green">
+            PROJECTS
+          </p>
+          <p
+            class="mt-1 mb-[70px] text-center text-3xl font-bold leading-relaxed text-white"
+          >
+            We have completed many amazing projects that you will not believe
+          </p>
         </div>
 
-        <!-- Feature Section -->
-        <div id="services" class="relative w-fit mx-auto py-32">
-            <div class="lg:flex justify-center space-y-5 lg:space-y-0 lg:space-x-5">
-                <div
-                    class="bg-white/10 lg:w-3/12 backdrop-blur-md rounded-md hover:-translate-y-3  transition duration-200">
-                    <div class="p-10">
-                        <img src="asset/icons/figma.svg" alt="icon-figma">
-                        <p class=" text-lg font-bold mt-5 mb-2 text-white">
-                            Design</p>
-                        <p class=" font-normal text-white/60 leading-loose">
-                            The
-                            project interface will be
-                            designed first, our favorite tool is Figma.</p>
-                    </div>
-                </div>
-                <div
-                    class="bg-white/10 lg:w-3/12 backdrop-blur-md rounded-md hover:-translate-y-3  transition duration-200">
-                    <div class="p-10">
-                        <img src="asset/icons/develop.svg" alt="icon-figma">
-                        <p class=" text-lg font-bold mt-5 mb-2 text-white">
-                            Develop</p>
-                        <p class=" text-white/60 leading-loose">
-                            The
-                            Transform design and write business logic here.
-                            Choose the
-                            technology you want.</p>
-                    </div>
-                </div>
-                <div
-                    class="bg-white/10 lg:w-3/12 backdrop-blur-md rounded-md hover:-translate-y-3  transition duration-200">
-                    <div class="p-10">
-                        <img src="asset/icons/ship.svg" alt="icon-figma">
-                        <p class=" text-lg font-bold mt-5 mb-2 text-white">
-                            Ship</p>
-                        <p class=" text-white/60 leading-loose">
-                            The
-                            After the work is complete, we will send the
-                            project and all
-                            its assets to you.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Company Logo (Feature Section)  -->
-            <div class="border-t border-b mx-40 border-white/20 mt-16">
-                <div class="flex my-9 justify-evenly">
-                    <img src="asset/icons/Github Logo.svg" alt="Github Logo">
-                    <img src="asset/icons/Forbes Logo.svg" alt="Forbes Logo">
-                    <img src="asset/icons/Google Logo.svg" alt="Google Logo">
-                    <img src="asset/icons/Microsoft Logo.svg" alt="Microsoft Logo">
-                    <img src="asset/icons/Facebook Logo.svg" alt="Facebook Logo">
-                </div>
-            </div>
+        <div class="flex justify-center space-x-5">
+          <div class="text-center">
+            <img
+              class="shadow-2xl shadow-slate-400/5"
+              src="asset/illustration/mobile app landing.svg"
+              alt="Mobile app landing page"
+            />
+            <p class="mt-10 mb-3 text-xl font-bold text-white">
+              The Mobile App Landing Page
+            </p>
+            <p class="text-white/60">A landing page for mobile app</p>
+            <a
+              href="#"
+              class="mx-auto mt-9 block w-fit rounded-full border border-white px-[30px] py-[10px] text-sm font-medium text-white hover:bg-white/10"
+              >Details</a
+            >
+          </div>
+          <div class="text-center">
+            <img
+              class="shadow-2xl shadow-slate-400/5"
+              src="asset/illustration/dekstop app landing.svg"
+              alt="Desktop app landing page"
+            />
+            <p class="mt-10 mb-3 text-xl font-bold text-white">
+              The Desktop App Landing Page
+            </p>
+            <p class="text-white/60">A landing page for desktop app</p>
+            <a
+              href="#"
+              class="mx-auto mt-9 block w-fit rounded-full border border-white px-[30px] py-[10px] text-sm font-medium text-white hover:bg-white/10"
+              >Details</a
+            >
+          </div>
         </div>
+      </div>
 
-        <!-- How We Work Section -->
-        <div id="work" class="flex mx-44 items-center py-32">
-            <div class="w-1/2">
-                <img src="asset/illustration/How We Work Illustration.svg" alt="How We Work Illustration ">
-            </div>
-            <div class="w-1/2">
-                <p class="text-custom-green font-semibold text-base">HOW WE WORK?</p>
-                <p class=" text-3xl leading-relaxed text-white text-left font-bold mt-1 mb-8">
-                    Everything is well planned, well designed and developed wholeheartedly
-                </p>
-                <p class="text-white/60  leading-loose text-base">
-                    Careful
-                    planning makes us confident, developed with best <br> practices so
-                    that the
-                    project can be maintained. We always test
-                    projects before they are shipped.</p>
-            </div>
-        </div>
+      <!-- Get started section -->
+      <div class="relative py-32">
+        <div class="mx-auto h-fit w-fit rounded-3xl bg-highlight">
+          <div id="get-started" class="mx-auto w-96 pt-[90px]">
+            <p class="text-center text-base font-semibold text-custom-green">
+              GET STARTED
+            </p>
+            <p
+              class="mt-1 mb-[70px] text-center text-3xl font-bold leading-relaxed text-white"
+            >
+              What do you need? Choose a service that can help you
+            </p>
+          </div>
 
-        <!-- Our Team Section -->
-        <div id="about" class="relative flex mx-44 items-center py-32 space-x-10">
-            <div class="w-1/2">
-                <p class="text-custom-green  text-base font-semibold">OUR
-                    TEAM</p>
-                <p class="text-white  font-bold text-3xl leading-relaxed mt-1 mb-8">
-                    We're a team of designers, engineers and analysts</p>
-                <p class="text-white/60  text-base leading-loose">Our team
-                    consists of many creative people. We are committed to maintaining
-                    quality work as well as speed. These creative
-                    people work together to create maximum work results.</p>
-                <a href="#"
-                    class="block w-fit mt-12 text-white  font-semibold bg-white/10 backdrop-blur-md rounded-sm hover:bg-white/30 transition duration-300 px-[40px] py-[10px]">See
-                    Our
-                    Team</a>
-            </div>
-            <div class="w-1/2">
-                <img src="asset/illustration/Team Illustration.svg" alt="Team Illustration">
-            </div>
-        </div>
-
-
-        <!-- Line -->
-        <div class="border-white/5 relative border-b mx-44"></div>
-
-
-        <!-- Project Section -->
-        <div id="project" class="relative py-32">
-            <!-- Box background -->
-            <img class="absolute -z-10" src="asset/illustration/bg-rectangel.svg" alt="box">
-
-            <!-- Shape Background -->
-            <div
-                class="absolute left-72 top-44 blur-sm h-[45px] w-[45px] rounded-full bg-gradient-to-br from-[#FF81A6] to-[#FC165B]">
-            </div>
-            <div
-                class="absolute right-80 top-16 blur-sm h-[50px] w-[50px] rounded-full bg-gradient-to-br from-[#66FFA3] to-[#009C3E]">
-            </div>
-            <div class="absolute right-40 top-56 blur-sm h-[30px] w-[30px] rounded-full bg-primary">
-            </div>
-
-            <!-- Text -->
-            <div class="mx-auto w-96">
-                <p class="text-custom-green text-center  text-base font-semibold">
-                    PROJECTS</p>
-                <p class="mt-1 mb-[70px] leading-relaxed text-3xl font-bold text-center text-white">We have
-                    completed many
-                    amazing projects
-                    that you will not believe</p>
-            </div>
-
-            <div class="flex justify-center space-x-5">
-                <div class="text-center">
-                    <img class="shadow-slate-400/5 shadow-2xl" src="asset/illustration/mobile app landing.svg"
-                        alt="Mobile app landing page">
-                    <p class="mt-10 mb-3 font-bold text-xl text-white">The Mobile App Landing Page</p>
-                    <p class="text-white/60">A landing page for mobile app</p>
-                    <a href="#"
-                        class="mt-9 block border text-sm font-medium hover:bg-white/10 w-fit mx-auto text-white rounded-full border-white px-[30px] py-[10px]">Details</a>
+          <!-- UI Design Card -->
+          <div class="flex justify-center space-x-5 px-[145px] pb-[145px]">
+            <div class="h-fit w-fit rounded-md bg-[#3F2379]">
+              <div class="flex w-80 justify-between px-12">
+                <p class="pt-14 font-bold text-white">UI Design</p>
+                <div class="pt-14">
+                  <p class="text-xs text-white/60">Starting From</p>
+                  <p class="text-4xl font-bold text-white">1200$</p>
                 </div>
-                <div class="text-center">
-                    <img class="shadow-slate-400/5 shadow-2xl" src="asset/illustration/dekstop app landing.svg"
-                        alt="Desktop app landing page">
-                    <p class="mt-10 mb-3 font-bold text-xl text-white">The Desktop App Landing Page</p>
-                    <p class="text-white/60">A landing page for desktop app</p>
-                    <a href="#"
-                        class="mt-9 block border text-sm font-medium hover:bg-white/10 w-fit mx-auto text-white rounded-full border-white px-[30px] py-[10px]">Details</a>
-                </div>
+              </div>
+              <hr class="mx-12 mt-9 border border-white/10" />
+              <div
+                class="py-[50px] text-center text-base font-medium leading-loose text-white"
+              >
+                <p>10 design pages</p>
+                <p>Well-documented</p>
+                <p>4 revisions</p>
+                <p>$100/additional page</p>
+              </div>
+              <a
+                href="#"
+                class="mx-auto mb-[29px] block w-fit rounded-sm bg-white px-[100px] py-[10px] font-semibold text-primary"
+                >Detail</a
+              >
             </div>
-        </div>
 
-        <!-- Get started section -->
-        <div class="py-32 relative">
-            <div class="h-fit w-fit mx-auto bg-highlight rounded-3xl">
-                <div id="get-started" class="mx-auto w-96 pt-[90px]">
-                    <p class="text-custom-green text-center  text-base font-semibold">
-                        GET STARTED</p>
-                    <p class="mt-1 mb-[70px] leading-relaxed text-3xl font-bold text-center text-white">What do you
-                        need?
-                        Choose a service that can help you</p>
+            <!-- Development Card -->
+            <div class="h-fit w-fit rounded-md bg-[#233679]">
+              <div class="flex w-80 justify-between px-12">
+                <p class="pt-14 font-bold text-white">Development</p>
+                <div class="pt-14">
+                  <p class="text-xs text-white/60">Starting From</p>
+                  <p class="text-4xl font-bold text-white">5000$</p>
                 </div>
-
-                <!-- UI Design Card -->
-                <div class="flex px-[145px] justify-center pb-[145px] space-x-5">
-                    <div class="w-fit h-fit rounded-md bg-[#3F2379]">
-                        <div class="flex px-12 justify-between w-80">
-                            <p class="text-white pt-14 font-bold">UI Design</p>
-                            <div class="pt-14">
-                                <p class="text-white/60 text-xs">Starting From</p>
-                                <p class="text-white text-4xl font-bold">1200$</p>
-                            </div>
-                        </div>
-                        <hr class="border-white/10 border mt-9 mx-12">
-                        <div class="font-medium text-white text-center py-[50px] leading-loose text-base">
-                            <p>10 design pages</p>
-                            <p>Well-documented</p>
-                            <p>4 revisions</p>
-                            <p>$100/additional page</p>
-                        </div>
-                        <a href="#"
-                            class="block font-semibold bg-white text-primary w-fit mx-auto mb-[29px] px-[100px] py-[10px] rounded-sm">Detail</a>
-                    </div>
-
-                    <!-- Development Card -->
-                    <div class="w-fit h-fit rounded-md bg-[#233679]">
-                        <div class="flex px-12 justify-between w-80">
-                            <p class="text-white pt-14 font-bold">Development</p>
-                            <div class="pt-14">
-                                <p class="text-white/60 text-xs">Starting From</p>
-                                <p class="text-white text-4xl font-bold">5000$</p>
-                            </div>
-                        </div>
-                        <hr class="border-white/10 border mt-9 mx-12">
-                        <div class="font-medium text-white text-center py-[50px] leading-loose text-base">
-                            <p>Web & Mobile</p>
-                            <p>Well-documented</p>
-                            <p>8 revisions</p>
-                            <p>$1000/additional feature</p>
-                        </div>
-                        <a href="#"
-                            class="block font-semibold bg-white text-[#233679] w-fit mx-auto mb-[29px] px-[100px] py-[10px] rounded-sm">Detail</a>
-                    </div>
-
-                    <!-- Maintenance Card -->
-                    <div class="w-fit h-fit rounded-md bg-[#792366]">
-                        <div class="flex px-12 justify-between w-80">
-                            <p class="text-white pt-14 font-bold">Maintenance</p>
-                            <div class="pt-14">
-                                <p class="text-white/60 text-xs">Starting From</p>
-                                <p class="text-white text-4xl font-bold">3000$</p>
-                            </div>
-                        </div>
-                        <hr class="border-white/10 border mt-9 mx-12">
-                        <div class="font-medium text-white text-center py-[50px] leading-loose text-base">
-                            <p>Daily backup</p>
-                            <p>3 hourse of maintenance</p>
-                            <p>Including fixing</p>
-                            <p>$50/additional hour</p>
-                        </div>
-                        <a href="#"
-                            class="block font-semibold bg-white text-[#792366] w-fit mx-auto mb-[29px] px-[100px] py-[10px] rounded-sm">Detail</a>
-                    </div>
-                </div>
+              </div>
+              <hr class="mx-12 mt-9 border border-white/10" />
+              <div
+                class="py-[50px] text-center text-base font-medium leading-loose text-white"
+              >
+                <p>Web & Mobile</p>
+                <p>Well-documented</p>
+                <p>8 revisions</p>
+                <p>$1000/additional feature</p>
+              </div>
+              <a
+                href="#"
+                class="mx-auto mb-[29px] block w-fit rounded-sm bg-white px-[100px] py-[10px] font-semibold text-[#233679]"
+                >Detail</a
+              >
             </div>
+
+            <!-- Maintenance Card -->
+            <div class="h-fit w-fit rounded-md bg-[#792366]">
+              <div class="flex w-80 justify-between px-12">
+                <p class="pt-14 font-bold text-white">Maintenance</p>
+                <div class="pt-14">
+                  <p class="text-xs text-white/60">Starting From</p>
+                  <p class="text-4xl font-bold text-white">3000$</p>
+                </div>
+              </div>
+              <hr class="mx-12 mt-9 border border-white/10" />
+              <div
+                class="py-[50px] text-center text-base font-medium leading-loose text-white"
+              >
+                <p>Daily backup</p>
+                <p>3 hourse of maintenance</p>
+                <p>Including fixing</p>
+                <p>$50/additional hour</p>
+              </div>
+              <a
+                href="#"
+                class="mx-auto mb-[29px] block w-fit rounded-sm bg-white px-[100px] py-[10px] font-semibold text-[#792366]"
+                >Detail</a
+              >
+            </div>
+          </div>
         </div>
-        <!-- Closing tag for dark background -->
+      </div>
+      <!-- Closing tag for dark background -->
     </div>
 
     <!-- background Shape Hero -->
-    <div class="absolute -top-32 -z-10 right-10 h-[700px] w-[700px] bg-[#FC165B] rounded-full"></div>
-    <div class="absolute -z-20 left-80 -top-16 h-[700px] w-[700px] bg-custom-green rounded-full"></div>
-    <div class="absolute -z-10 top-14 -left-20 h-[700px] w-[700px] bg-[#FCA016] rounded-full"></div>
+    <div
+      class="absolute -top-32 right-10 -z-10 h-[700px] w-[700px] rounded-full bg-[#FC165B]"
+    ></div>
+    <div
+      class="absolute left-80 -top-16 -z-20 h-[700px] w-[700px] rounded-full bg-custom-green"
+    ></div>
+    <div
+      class="absolute top-14 -left-20 -z-10 h-[700px] w-[700px] rounded-full bg-[#FCA016]"
+    ></div>
 
     <!-- background shape work -->
-    <div class="absolute -z-20 top-[1500px] left-36 h-[400px] w-[400px] bg-[#FCA016] rounded-full">
-    </div>
-    <div class="absolute -z-10 left-96 top-[1300px] h-[350px] w-[350px] bg-custom-green rounded-full">
-    </div>
+    <div
+      class="absolute top-[1500px] left-36 -z-20 h-[400px] w-[400px] rounded-full bg-[#FCA016]"
+    ></div>
+    <div
+      class="absolute left-96 top-[1300px] -z-10 h-[350px] w-[350px] rounded-full bg-custom-green"
+    ></div>
 
     <!-- Background shape our team -->
-    <div class="absolute -z-20 top-[2100px] right-56 h-[450px] w-[450px] bg-[#FC165B] rounded-full">
-    </div>
-    <div class="absolute -z-10 right-20 top-[1910px] h-[350px] w-[350px] bg-primary rounded-full">
-    </div>
+    <div
+      class="absolute top-[2100px] right-56 -z-20 h-[450px] w-[450px] rounded-full bg-[#FC165B]"
+    ></div>
+    <div
+      class="absolute right-20 top-[1910px] -z-10 h-[350px] w-[350px] rounded-full bg-primary"
+    ></div>
 
-</body>
+    <!-- Background shape our team -->
+    <div
+      class="absolute top-[2100px] right-56 -z-20 h-[450px] w-[450px] rounded-full bg-[#FC165B]"
+    ></div>
+    <div
+      class="absolute right-20 top-[1910px] -z-10 h-[350px] w-[350px] rounded-full bg-primary"
+    ></div>
+    <!-- Background shape our team -->
+    <div
+      class="absolute top-[2100px] right-56 -z-20 h-[450px] w-[450px] rounded-full bg-[#FC165B]"
+    ></div>
+    <div
+      class="absolute right-20 top-[1910px] -z-10 h-[350px] w-[350px] rounded-full bg-primary"
+    ></div>
 
+    <!-- Background shape our team -->
+    <div
+      class="absolute top-[2100px] right-56 -z-20 h-[450px] w-[450px] rounded-full bg-[#FC165B]"
+    ></div>
+    <div
+      class="absolute right-20 top-[1910px] -z-10 h-[350px] w-[350px] rounded-full bg-primary"
+    ></div>
+  </body>
 </html>
